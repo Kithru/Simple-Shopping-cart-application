@@ -12,7 +12,6 @@ This is a modern e-commerce platform for a trendy restaurant, allowing users to 
 - [File Structure](#file-structure)
 - [Database Setup](#database-setup)
 - [Security Measures](#security-measures)
-- [Contributing](#contributing)
 - [License](#license)
 
 ## Features
@@ -53,9 +52,6 @@ This is a modern e-commerce platform for a trendy restaurant, allowing users to 
 - Inputs are sanitized to prevent SQL injection attacks.
 - Sensitive data transmission is secure, especially during the checkout process.
 
-## Contributing
-
-Please read [CONTRIBUTING.md](CONTRIBUTING.md) for details on our code of conduct and the process for submitting pull requests to us.
 
 ## License
 
