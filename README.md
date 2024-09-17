@@ -40,7 +40,10 @@ This is a modern e-commerce platform for a trendy restaurant, allowing users to 
 4. Run the project on a web server.
 
 ## File Structure
-
+1. All class files are included in 'Classes' folder.
+2. Uploaded images are included in 'uploads' folder.
+3. And view files are available.
+   
 ## Database Setup
 
 1. Execute the SQL script in /database/schema.sql to set up the database schema.
