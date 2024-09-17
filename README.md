@@ -52,9 +52,4 @@ This is a modern e-commerce platform for a trendy restaurant, allowing users to 
 - Inputs are sanitized to prevent SQL injection attacks.
 - Sensitive data transmission is secure, especially during the checkout process.
 
-
-## License
-
-This project is licensed under the [ASE License](LICENSE). 
-
 **Project by - Kithru Viduranga (12992219) **
