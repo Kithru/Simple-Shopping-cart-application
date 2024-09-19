@@ -261,43 +261,6 @@ function addToCart(itemId, itemName, itemPrice) {
   <p style="font-size:18px;">Amazing customer service, very prompt, friendly and professional! Thank you so much for your hard work!</p>
 </div>
 
-<!-- <div class="container">
-  <img src="images/image81.avif" alt="Avatar" style="width:100px">
-  <p><span>Shenu Genny</span></p><br>
-    <span class="fa fa-star checked"></span>
-    <span class="fa fa-star checked"></span>
-    
-    <span class="fa fa-star checked"></span>
-    <span class="fa fa-star checked"></span><br><br>
-  <p style="font-size:18px;">This guys are extremely helpful, I would highly recommend their business, in a heartbeat would recommend them.
-Thank You for all of your help!</p>
-</div> -->
-
-<!-- <div class="container">
-  <img src="images/image82.avif" alt="Avatar" style="width:90px">
-  <p><span>Krithri Anne</span></p><br>
-    <span class="fa fa-star checked"></span>
-    <span class="fa fa-star checked"></span>
-    
-    <span class="fa fa-star checked"></span>
-    <span class="fa fa-star checked"></span><br><br><br>
-  <p style="font-size:18px;">Great and fast service! Love the simplicity of this company!!</p>
-</div> -->
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
                     <!--call to action-->
 
                     <section class="cta">
@@ -360,8 +323,6 @@ Thank You for all of your help!</p>
                      <!--javascript-->
                      <script src="script.js"></script>
 
-
-
 </body>
 </html>
 
@@ -372,12 +333,7 @@ Thank You for all of your help!</p>
                 <a href="https://web.whatsapp.com/"><i class="fa fa-whatsapp" aria-hidden="true"></i></a>
                 <i class="fa fa-question-circle" aria-hidden="true"></i>
             </div>
-
-
-
-
-
-            
+      
     <div class="nav_down">
 		<div>
 		 &copy; Ocean Peak Restaurant, site designed & developed by KV 
