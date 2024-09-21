@@ -42,7 +42,8 @@ This is a modern e-commerce platform for a trendy restaurant, allowing users to 
 ## File Structure
 1. All class files are included in 'Classes' folder.
 2. Uploaded images are included in 'uploads' folder.
-3. And view files are available.
+3. Directory of file upload "uploads/"
+4. And view files are available.
    
 ## Database Setup
 
