@@ -77,7 +77,48 @@ class ItemManager {
             }
     }
 
-   
+    public function signup($name,$email,$pswd){
+        $con = DBConnect::getConnection();
+
+        $duplicate = $this->checkduplicateuser($name,$email);
+        if ($duplicate != '1') {
+        $sql = "INSERT INTO `userinfo`(`user_name`,`email`,`password`,`added_date`)
+        VALUES ('$name','".mysql_real_escape_string($email)."','".mysql_real_escape_string($pswd)."',CURRENT_TIMESTAMP)";       
+            $result = mysql_query($sql, $con) or die(mysql_error());
+            if ($result) {
+                return "Success";
+            } else {
+                return "Error";
+            }
+        } else {
+            return "duplicate";
+        }    
+    }
+    public function login($email,$pswd){
+        $con = DBConnect::getConnection();
+        $sql = "SELECT * FROM userinfo WHERE email = '$email' AND password = '$pswd'";
+        $result = mysql_query($sql, $con) or die(mysql_error());
+        $row_count=mysql_num_rows($result);
+        $row = mysql_fetch_assoc($result);
+        if ($row_count > 0) {
+            $_SESSION['user'] = $row['email']; // Store user's email in the session
+            header('Location: admin.php'); // Redirect to the dashboard or another page
+            exit;
+        } else {
+            return "error";
+        }
+    }
+    public function checkduplicateuser($name,$email) {
+        $con = DBConnect::getConnection();
+        $query = "SELECT * FROM `userinfo` WHERE `user_name`='$name' AND `email`='".mysql_real_escape_string($email)."' LIMIT 1";
+        $results = mysql_query($query, $con) or die(mysql_error());
+        $count=mysql_num_rows($results);
+            if($count>0){
+                return 1;
+            }else{
+                return 0;
+            }
+    }
 
 }
 
