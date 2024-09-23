@@ -57,7 +57,7 @@ class ItemManager {
                 $array[$i]['category'] = $row['category'];
                 $i++;
             }
-            $result->free(); 
+            // $result->free(); 
             return $array;
         } else {
             die($con->error);
