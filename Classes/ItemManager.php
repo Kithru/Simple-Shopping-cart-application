@@ -76,7 +76,7 @@ class ItemManager {
                 return "Error";
             }
     }
-
+// signup function
     public function signup($name,$email,$pswd){
         $con = DBConnect::getConnection();
 
